@@ -1,0 +1,14 @@
+#results {
+	color: #fff;
+	padding:10px;
+}
+
+.success {
+	background-color: #5cb85c;
+	transition: 0.3s all ease-in-out;
+}
+
+.failure {
+	background-color: #d9534f;
+	transition: 0.3s all ease-in-out;
+}

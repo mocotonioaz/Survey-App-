@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title> </title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" type="text/css" href="css/main.css">
+			<link rel="stylesheet" href="css/animate.css">
+	
+			              
+	    </head>
+	<body>
+<!-- login app -->
+	<form>
+	<div class="box">
+	<input type="text" placeholder="what`s you name?" id="username">
+	<input type="text" placeholder="what`s your password" id="password">
+	<button type="button" onclick="getInfo()">Click Me</button>
+	</form>
+
+
+
+
+	   
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		
+		<script src="js/main.js"></script>
+
+     <script>
+     function getInfo(){
+      var usersArray = [
+    {
+       	name: "marco",
+       	type: "electric",
+    },
+    {
+    	name: "isaac",
+    	type: "water",
+    },
+    {
+    	name: "bulbasaur",
+    	type: "vegetarian",
+    }
+    ]
+    var username = document.getElementById("username").value
+    var password = document.getElementById("password").value
+
+    for(i = 0; i < usersArray.leght; i ++){
+    	if (useename == usersArray[i].username && password == userArray[i].password){
+    		alert(username + "has logged in!!")
+    		return
+    	}
+    }
+    	
+    		console.log("incorrect username or password")
+    	}
+
+
+
+
+	</script>
+	</body>
+</html>
