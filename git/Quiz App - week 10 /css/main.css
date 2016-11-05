@@ -1,0 +1,16 @@
+* {
+	background-color: gray;
+}
+.title {
+	text-align: center;
+	font-size: 50px;	
+}
+.correct {
+	color: blue;
+}
+.incorrect {
+	color: red;
+}
+h1.correct, h1.incorrect {
+	width: 250px;
+}
