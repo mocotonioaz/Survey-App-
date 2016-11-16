@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Horoscope</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+				<form>
+					<div class="form-group">
+						<h1>Enter your horoscope sign</h1>
+					</div>
+					<div class="form-group">
+						<input id="userdata" class="form-control">
+					</div>
+					<div class="form-group">
+						<!-- runs the function line 66 main.js -->
+						<button type="button" onclick="horoscope()" class="btn btn-primary btn-lg">Find Sign</button>
+					</div>
+				</form>
+
+				<div>
+					<h1 id="yourSign"></h1>
+					<img id="icon" src="">
+					<p id="yourHoroscope"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+
+</body>
+</html>
