@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Codify Sorting</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<audio id="myAudio">
+	  <source src="horse.mp3" type="audio/mpeg">
+	</audio>
+	<form id="form">
+		<h1 id="questions1">Questions 1</h1>
+		<input id="input1" required="required">
+		<h1 id="questions2">Questions 2</h1>
+		<input id="input2" required>
+		<h1 id="questions3">Questions 3</h1>
+		<input id="input3" required>
+		<br>
+		<br>
+		<button type="button" onclick="sortingHat()" class="button">Sort Student</button>
+	</form>
+	<div id="redTeam">
+		<h1>Red Team!!!</h1>
+		<button type="button" onclick="sortAnotherStudent()" class="button">Sort another student</button>
+	</div>
+	<div id="blueTeam">
+		<h1>Blue Team!!!</h1>
+		<button type="button" onclick="sortAnotherStudent()" class="button">Sort another student</button>
+	</div>
+	<div id="sortingComplete">
+		<h1>Sorting Complete</h1>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
