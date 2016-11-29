@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<title>User Survey App with JavaScript</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/main.css">
+			<link rel="stylesheet" href="css/animate.css">
+	
+			              
+	    </head>
+
+	<body>
+	 	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3 col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
+				<div id="mainForm">
+					<h1>Survey</h1>
+
+			<h3>Which cities have you visited?</h3>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" class="question1" value="Paris">Paris</label>
+						</div>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" class="question1" value="New York">New York</label>
+						</div>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" class="question1" value="LA">Los Angeles</label>
+						</div>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" class="question1" value="cairo">Cairo</label>
+						</div>
+						<div>
+							<label class="checkbox-inline"><input type="checkbox" class="question1" value="none">None of the above</label>
+						</div>
+
+
+	 	<h3>What's your favorite color?</h3>
+						<select class="form-control">
+							<option class="question2" value="">select your favorite color</option>
+							<option class="question2" value="blue">blue</option>
+							<option class="question2" value="red">red</option>
+							<option class="question2" value="green">green</option>
+							<option class="question2" value="black">black</option>
+						</select>
+
+						<!-- question 3 using radio buttons -->
+						<h3>What's your dream pet?</h3>
+						<div class="form-group">
+							<div class="radio">
+								<label>
+									<input type="radio" name="radio1" class="question3" value="dog">dog
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="radio1" class="question3" value="cat">cat
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="radio1" class="question3" value="bird">bird
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="radio1" class="question3" value="snake">snake
+								</label>
+							</div>
+						</div>
+						<button type="button" id="submitButton" class="btn btn-primary">Submit Survey</button>
+					</form>
+					
+					<!-- display results -->
+					<div id="results"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
